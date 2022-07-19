@@ -283,7 +283,7 @@ class ViewShieldSettings extends Page implements HasFormActions
                             'sm' => 1,
                             'lg' => 2,
                         ]),
-                    ])
+                    ]),
                 ])
                 ->columnSpan('full'),
         ];

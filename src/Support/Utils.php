@@ -7,6 +7,7 @@ class Utils
     public static function isResourceEnabled(): bool
     {
         config(['filament-shield.shield_resource.enabled' => true]);
+
         return config('filament-shield.shield_resource.enabled');
     }
 
